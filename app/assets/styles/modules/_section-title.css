@@ -5,6 +5,8 @@
 
   @mixin atSmall {
     font-size: 3.75rem;
+    position: relative;
+    top: 8px;
   }
 
   strong {
