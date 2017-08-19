@@ -557,10 +557,9 @@ a {
   }
 
 .wrapper {
-  overflow: hidden;
   padding-left: 18px;
   padding-right: 18px;
-  max-width: 1236px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -572,17 +571,6 @@ a {
 .wrapper .wrapper {
     padding-left: 0;
     padding-right: 0;
-  }
-
-.wrapper--b-margin {
-    margin-bottom: 1rem;
-  }
-
-@media (min-width: 530px) {
-
-.wrapper--b-margin {
-      margin-bottom: 3.875rem
-  }
   }
 
 .page-section {
@@ -599,11 +587,6 @@ a {
 .page-section--blue {
     background-color: #2f5572;
     color:#FFF;
-  }
-
-.page-section--testimonials {
-    background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
-    background-size: cover;
   }
 
 .headline {
@@ -654,10 +637,6 @@ a {
 
 .headline--b-margin-large {
     margin-bottom: 1.6em;
-  }
-
-.headline--no-t-margin {
-    margin-top: 0;
   }
 
 .row::after {
